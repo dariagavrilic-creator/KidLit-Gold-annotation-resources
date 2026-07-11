@@ -1,0 +1,31 @@
+book_id,group,length_stratum,title_rus,title_translit,author,year,publisher,n_sentences,n_tokens,n_words,language,age_marker,genre,pages
+RUS-O_long_01,RUS-O,long,"Обними меня! Сказка о том, как Обнимашка хотел спасти мир","Obnimi menya! Skazka o tom, kak Obnimashka hotel spasti mir",Anastasia Markelova,2023,Alpina Publisher,178,2160,1586,Russian,0+,prose,57
+RUS-O_long_02,RUS-O,long,Детский сад на колёсиках,Detskiy sad na kolyosikakh,Zulya Stadnik,2023,Archipelag,327,3210,2296,Russian,0+,prose,32
+RUS-O_long_03,RUS-O,long,"Грузовик, прицеп и новогодняя елка","Gruzovik, pripets i novogodnyaya yelka",Anastasia Orlova,2018,ROSMAN,332,2055,1384,Russian,0+,prose,36
+RUS-O_long_04,RUS-O,long,Как же я люблю маму!,Kak zhe ya lyublyu mamu!,Yulia Simbirskaya,2025,Phoenix,238,2484,1812,Russian,0+,prose,48
+RUS-O_long_05,RUS-O,long,Лисья сказка,Lisya skazka,Darya Gerasimova,2019,AST,311,1690,1307,Russian,0+,poetry,48
+RUS-O_medium_01,RUS-O,medium,Автомобильчик,Avtomobilchik,Yulia Levdanskaya,2024,NIGMA,83,1078,838,Russian,0+,prose,40
+RUS-O_medium_02,RUS-O,medium,"Кораблик, который хотел летать","Korablik, kotoryy khotel letat",Ekaterina Filippova,2020,NIGMA,59,768,624,Russian,0+,prose,40
+RUS-O_medium_03,RUS-O,medium,"Принц Филипп и добрый друг-шарик: Что делать, если потерял друга","Printc Filipp i dobryy drug-sharik: Chto delat, esli poteryal druga",Maksim Ilyakhov,2025,Alpina Publisher,71,759,593,Russian,0+,prose,31
+RUS-O_medium_04,RUS-O,medium,Едет мамин человечек,Edet mamin chelovechek,Mariya Rupasova,2017,AST,252,1265,886,Russian,0+,poetry,64
+RUS-O_medium_05,RUS-O,medium,Подарок для мышки,Podarok dlya myshki,Irina Zartayskaya,2022,NIGMA,53,676,529,Russian,0+,prose,32
+RUS-O_short_01,RUS-O,short,Добрая акула,Dobraya akula,Elena Repetur,2022,Albus Corvus,66,519,396,Russian,0+,prose,25
+RUS-O_short_02,RUS-O,short,Как лисичка у зайчика морковку воровала. История лесных зверей,Kak lisichka u zaychika morkovku vorovala. Istoriya lesnykh zverey,Alena Khmelnitskaya,2022,Alpina Publisher,40,553,457,Russian,0+,prose,33
+RUS-O_short_03,RUS-O,short,"Жёлтый, Красный, Синий и другие","Zheltyy, Krasnyy, Siniy i drugie",Marina Aromshtam,2016,VECTOR,71,618,440,Russian,0+,prose,23
+RUS-O_short_04,RUS-O,short,Весёлый пожарный,Veselyy pozharnyy,Irina Zartayskaya,2017,NIGMA,40,674,554,Russian,0+,prose,32
+RUS-O_short_05,RUS-O,short,Оркестр маленьких жучков,Orkestr malenkikh zhuchkov,Sveta Ben,2018,Young mom,30,258,188,Russian,0+,poetry,32
+RUS-T_long_01,RUS-T,long,Как Лисенок встречал Новый год,Kak Lisa-nyonok vstrechal Novyy god,Ulrike Motschiunig,2016,NIGMA,119,1512,1135,German,0+,prose,24
+RUS-T_long_02,RUS-T,long,Счастливый день с папой,Schastlivyy den s papoy,Przemysław Wechterowicz,2016,Rech Publishing House,170,1807,1329,Polish,0+,prose,32
+RUS-T_long_03,RUS-T,long,Маленький красный трактор и секрет настоящего счастья,Malenkiy krasnyy traktor i sekret nastoyashchego schastya,Michael Engler,2021,Eksmo,110,1517,1210,German,0+,prose,32
+RUS-T_long_04,RUS-T,long,Счастье кота Феличе,Schastye kota Feliche,Giovanna Zoboli,2017,NIGMA,117,1578,1240,Italian,0+,prose,24
+RUS-T_long_05,RUS-T,long,Мамино сокровище,Mamino sokrovishche,Andrea Schütze,2016,ENAS-KNIGA,167,1701,1184,German,0+,prose,26
+RUS-T_medium_01,RUS-T,medium,Когда я злюсь,Kogda ya zlyus,Nanna Neßhöfer,2019,Alpina Publisher,103,931,682,German,0+,prose,34
+RUS-T_medium_02,RUS-T,medium,Маленький вертолёт и смелость в сердце,Malenkiy vertolet i smelost v serdtse,Michael Engler,2024,Eksmo,88,1151,897,German,0+,prose,30
+RUS-T_medium_03,RUS-T,medium,Музей чудо-машин,Muzey chudo-mashin,Linda Sarah,2018,Polyandria,62,701,527,English,0+,prose,32
+RUS-T_medium_04,RUS-T,medium,Принц и Свинтус,Printz i Svin-tus,Peter Bently,2015,"Mann, Ivanov and Ferber",63,701,509,English,0+,poetry,32
+RUS-T_medium_05,RUS-T,medium,Когда наступит Новый год?,Kogda nastupit Novyy god?,Riikka Jäntti,2017,Strekoza,106,997,740,Finnish,0+,prose,39
+RUS-T_short_01,RUS-T,short,Дом,Dom,Céline Claire,2018,"Mann, Ivanov and Ferber",85,594,434,French,0+,prose,44
+RUS-T_short_02,RUS-T,short,Самая любимая мама. Стихи для детей,Samaya lyubimaya mama. Stikhi dlya detey,"Capucine Lewalle, Maud Legrand",2021,Alpina Publisher,30,390,297,French,0+,poetry,21
+RUS-T_short_03,RUS-T,short,Мышонок Тим капризничает,Myshonok Tim kapriznichaet,Anna Casalis,2018,ROSMAN,77,642,464,Italian,0+,prose,22
+RUS-T_short_04,RUS-T,short,Бабушка и птица,Babushka i ptitsa,Benji Davies,2018,Polyandria,39,476,369,English,0+,prose,32
+RUS-T_short_05,RUS-T,short,Большое путешествие Горошка,Bolshoe puteshestvie Goroshka,Davide Cali,2017,Samokat,61,341,254,French,0+,prose,40
