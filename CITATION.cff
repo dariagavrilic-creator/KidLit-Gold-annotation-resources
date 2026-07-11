@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite the accompanying paper."
+title: "KidLit-Gold: Annotation Scheme, Gold-Standard Annotations, and Adjudication Protocol for Russian Children's Literature 0+"
+type: dataset
+authors:
+  - family-names: Gavrilik
+    given-names: Daria A.
+    affiliation: "Peter the Great St. Petersburg Polytechnic University"
+  - family-names: Ostraia
+    given-names: Aleksandra V.
+    affiliation: "Peter the Great St. Petersburg Polytechnic University"
+  - family-names: Pankova
+    given-names: Vasilisa
+    affiliation: "Peter the Great St. Petersburg Polytechnic University"
+version: 0.2-submission
+date-released: 2026-07-12
+license: CC-BY-4.0
+repository-code: "https://github.com/[ORGANIZATION]/[REPO]"
+doi: "[ZENODO DOI — added after first release]"
+keywords:
+  - children's literature
+  - named entity recognition
+  - sentiment analysis
+  - inter-annotator agreement
+  - gold standard
+  - Russian language
+preferred-citation:
+  type: conference-paper
+  title: "KidLit by Numbers: A Reproducible Methodology for Sentiment and Named Entity Annotation in Russian Children's Literature 0+"
+  authors:
+    - family-names: Gavrilik
+      given-names: Daria A.
+    - family-names: Ostraia
+      given-names: Aleksandra V.
+    - family-names: Pankova
+      given-names: Vasilisa
+  year: 2026
+  conference:
+    name: "AIST 2026 (under review; bibliographic data to be completed upon publication)"
