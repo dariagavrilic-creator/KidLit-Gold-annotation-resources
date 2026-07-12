@@ -2,7 +2,7 @@
 
 Data and documentation accompanying the paper:
 
-> **KidLit by Numbers: A Reproducible Methodology for Sentiment and Named Entity Annotation in Russian Children's Literature 0+** (under review, AIST 2026).
+> **KidLit by Numbers: A Domain-Specific Annotation Methodology for Sentiment and NER in Russian Children's Literature 0+** (under review, AIST 2026).
 
 KidLit-Gold is a 30-book gold standard for named entity recognition (NER) and sentence-level sentiment analysis in Russian-language children's literature rated 0+. Each book was independently annotated by two annotators; disagreements are resolved by a third, independent adjudicator following a documented decision handbook. This repository releases everything needed to reproduce, audit, and reuse the methodology — **except the full book texts, which are not distributed for copyright reasons.**
 
