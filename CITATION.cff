@@ -18,22 +18,23 @@ license: CC-BY-4.0
 repository-code: "https://github.com/[ORGANIZATION]/[REPO]"
 doi: "[ZENODO DOI — added after first release]"
 keywords:
-  - children's literature
-  - named entity recognition
+  - children's literature 0+
+  - NER
   - sentiment analysis
-  - inter-annotator agreement
+  - IAA
   - gold standard
+  - NLP
   - Russian language
 preferred-citation:
   type: conference-paper
-  title: "KidLit by Numbers: A Reproducible Methodology for Sentiment and Named Entity Annotation in Russian Children's Literature 0+"
+  title: "KidLit by Numbers: A Domain-Specific Annotation Methodology for Sentiment and NER in Russian Children's Literature 0+"
   authors:
     - family-names: Gavrilik
       given-names: Daria A.
     - family-names: Ostraia
       given-names: Aleksandra V.
-    - family-names: Pankova
-      given-names: Vasilisa
+    - family-names: Pankova 
+      given-names: Vasilisa Yu.
   year: 2026
   conference:
     name: "AIST 2026 (under review; bibliographic data to be completed upon publication)"
