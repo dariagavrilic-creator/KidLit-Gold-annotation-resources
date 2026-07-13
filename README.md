@@ -12,6 +12,9 @@ KidLit-Gold is a 30-book gold standard for named entity recognition (NER) and se
 ├── guidelines/
 │   ├── NER_annotation_guidelines_EN.md / .pdf        # NER guidelines, v2 (post-IAA)
 │   └── sentiment_annotation_guidelines_EN.md / .pdf  # Sentiment guidelines, v2 (post-IAA)
+├── handbook/
+│   ├── decision_handbook_EN.md                       # Full decision handbook (all 36 precedents with statuses)
+│   └── decision_handbook.csv                         # Machine-readable version, one row per precedent
 ├── adjudication/
 │   ├── adjudication_log.csv                          # Complete adjudication log (one row = one resolved case)
 │   └── adjudication_log.jsonl                        # Same data, JSON Lines
@@ -19,6 +22,8 @@ KidLit-Gold is a 30-book gold standard for named entity recognition (NER) and se
 │   └── kidlit_gold_annotations.jsonl                 # Offsets + labels for both annotators, all 30 books (no text)
 ├── metadata/
 │   └── corpus_metadata.csv                           # Book-level metadata for KidLit-Gold
+├── code/
+│   └── iaa_statistics.ipynb                          # Reproduces the paper's adjudication tables & figures
 ├── CITATION.cff
 ├── LICENSE
 └── README.md
@@ -79,6 +84,14 @@ Book-level metadata for the 30 KidLit-Gold books.
 | `n_tokens` | Token count computed with the `razdel` tokenizer (total: 33,806; matches Table 1 of the paper) |
 | `n_words` | Word count as recorded in the corpus card |
 | `language`, `age_marker`, `genre`, `pages` | Additional bibliographic attributes |
+
+### `handbook/decision_handbook_EN.md` (and `.csv`)
+
+The complete decision handbook: 36 precedents (11 NER, 25 sentiment) plus one clarification note (`A-4a`), so the CSV contains 37 rows. Each entry follows a unified template — **ID · Status · Cluster — Example — Rule — Resolution — Notes** — plus a version log and quick-reference tables. Statuses: `stable` / `preliminary` / `open`. The CSV version is machine-readable (one row per precedent, columns `precedent_id, task, status, title, rule, example_ru, resolution, notes`); `precedent_id` values match the `precedent_id` field of the adjudication log. The clarification entry `A-4a` exists only in the handbook and never occurs as a standalone `precedent_id` in the log.
+
+### `code/iaa_statistics.ipynb`
+
+A Jupyter notebook that reproduces the paper's adjudication statistics directly from the released files: the summary table by disagreement type (Table 4, Fig. 1), the new-vs-existing precedent breakdown, the NER label-disagreement clusters with subtypes, the missed-entity asymmetry, the sentiment disagreement structure (Table 5, Fig. 2), the final label distribution of adjudicated cases, the RUS-O vs RUS-T preliminary comparison, and corpus-level counts from the gold annotation. The notebook is shipped executed, with all outputs embedded; re-running it end-to-end requires only `pandas` and `matplotlib`.
 
 ## What is deliberately not released
 
