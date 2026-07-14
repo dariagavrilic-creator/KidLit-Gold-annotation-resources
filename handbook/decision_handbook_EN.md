@@ -119,7 +119,7 @@ Russian examples are given in the original with English glosses in single quotes
 
 > ？ OPEN QUESTION. To be decided on the full sample of these 360 cases: (1) whether to exclude «Природа»/«природа» from PER_ROLE as a class — a philosophical question about the limits of anthropomorphization in children's texts; (2) whether to introduce a separate technical validation rule ("a single-adjective span without a noun when selecting PER_ROLE — request confirmation"). Both questions must be resolved BEFORE the next annotation round, otherwise they will continue to generate spurious IAA disagreements in the same proportion.
 >
-> ⚠ Previously, "missed entities" were treated as a single category without a subtype breakdown. The actual data revealed two different phenomena inside one figure (360) — the number itself is uninformative without this distinction; use it with caution in the paper.
+> ⚠ Previously, "missed entities" were treated as a single category without a subtype breakdown. The actual data revealed two different phenomena inside one figure (360) — the number itself is uninformative without this distinction.
 
 ### A-9 · STABLE · PER_ROLE — social relations outside the family
 
