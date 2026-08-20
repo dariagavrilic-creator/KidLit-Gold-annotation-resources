@@ -1,6 +1,6 @@
 # Sentiment Annotation Guidelines
 
-*KidLit Project*
+*KidLit Project · Sentence-level sentiment annotation for 0+ literature · v2 (updated based on the IAA analysis)*
 
 ## General principles
 
@@ -40,55 +40,56 @@ Assign 0 if the sentence describes an action, movement, or fact without emotiona
 - enumeration of events as narrative background
 - dialogue framing phrases: said, answered, asked
 
-**The main rule:** evaluate the **emotional effect** of a sentence on a child reader (listener in this case), not the formal meaning of the words. Children's literature works through **imagery and intonation**, not through direct "good/bad" language.
-
 ## Difficult cases — decision rules
 
-### –	#1 Sentence Independence Rule. 
-**The annotation unit is a single sentence; the label is assigned independently of neighboring sentences.**
+### Rule 1. The annotation unit is a single sentence
 
 - *«Она не на шутку перепугалась.»* ('She got seriously frightened.') → −1
 - *«Куда делся малыш?»* ('Where did the little one go?') → −1
 - *«Но Тим притаился за кустом и молчит.»* ('But Tim hid behind a bush and keeps silent.') → −1
 
-### –	#2 Dominant Emotion Rule. 
-**If a sentence contains both a positive and a negative component, the annotator assesses which of them affects the child more strongly.**
+### Rule 2. Ambivalence — choose the dominant emotion
+
+If a sentence contains both a positive and a negative component, assess which affects the child more strongly.
 
 - *«— Я никогда не буду капризничать! — обещает Тим.»* ('"I will never throw tantrums again!" Tim promises.') → +1
   *(the promise and reconciliation outweigh the preceding conflict)*
 
-### –	#3 Contextual Exclamation Rule
-**Polarity is determined by context rather than punctuation.**
+### Rule 3. Exclamations — look at context, not the punctuation mark
 
 - *«— Мамочка!»* ('Mommy!') → −1 (a cry in panic)
 - *«— Вот ты где, Тим!»* ('There you are, Tim!') → +1 (relief at the reunion)
 - *«— Хочу мороженое!»* ('I want ice cream!') → +1 (a joyful wish)
 - *«— Не пойду!»* ('I won't go!') → −1 (protest)
-- *«О, это был самый настоящий цветущий сад!»* ('Oh, it was a real blossoming garden!') → +1 (the explicit delight marker *О* 'Oh')
 
-### –	#4 Emotional State Rule
-**Tantrums and conflict are labeled according to the character's emotional state at the moment of action, not according to a moral evaluation of the behavior.**
+＋ CLARIFICATION: exclamatory sentences with explicit markers of joy/delight (*«О!»*, *«Ура!»*, *«Как красиво!»* — 'Oh!', 'Hooray!', 'How beautiful!') are annotated as +1 POSITIVE automatically, even without additional context. If an exclamation contains no such marker and its emotional coloring is not evident from the sentence itself — assign 0 NEUTRAL rather than guessing from the general tone of the scene.
+
+- *«О, это был самый настоящий цветущий сад!»* ('Oh, it was a real blossoming garden!') → +1 (the explicit delight marker «О»)
+
+### Rule 4. Tantrums and conflict — label by the character's state
 
 - *Tim throws a tantrum* → his distress → −1
 - *Mom loses patience* → tension → −1
 - *Tim promises to behave* → resolution → +1
 
-### –	#5 Immediate Effect Rule. 
-**Sentiment is judged by the reader's emotional response at the moment of reading, not by the eventual resolution of the situation.**
+### Rule 5. Scary things that get resolved
+
+Assess the literal effect at the moment of reading:
 
 - *«Мышонку кажется, что смотрят злые чудовища.»* ('The little mouse thinks evil monsters are watching.') → −1 (here it is fear, even if the monsters later turn out not to be real)
 - *«И вдруг он понял, что никаких чудовищ нет.»* ('And suddenly he realized there were no monsters at all.') → +1 (relief, release)
-- *«— Мне бы хотелось спрятать тебя от всех тревог на свете.»* ('I would like to hide you from all the worries in the world.') → +1 (this is an expression of care that uses the word *тревоги* 'worries' as part of a metaphor, not a description of the character's current fright)
+
+＋ CLARIFICATION: if the mention of anxiety/fear and its resolution (care, support, comfort) occur WITHIN ONE sentence, the annotation follows the resulting emotion of the whole sentence, not the initial trigger word. The word «тревога» 'anxiety' or «страх» 'fear' inside a sentence does NOT automatically mean −1 if, by the meaning of the whole sentence, it is an act of care.
+
+- *«— Мне бы хотелось спрятать тебя от всех тревог на свете.»* ('I would like to hide you from all the worries in the world.') → +1 (this is an expression of care that uses the word «тревоги» as part of a metaphor, not a description of the character's current fright)
 
 ⚠ Distinguish this from the opposite case: if a character realizes a mistake and expresses remorse, but the same or the following sentence contains NO immediate positive resolution — the label remains −1, even if the intonation is calm rather than panicked. *«— Значит, я зря обидел бегемотика… И обезьянку.»* ('So I hurt the little hippo for nothing… And the little monkey.') → −1 (remorse without resolution; not to be confused with the apology itself, which may form a separate +1 sentence).
 
-### –	#6 Emotional Effect Rule
-**Physical states and descriptions of nature are assessed by their emotional effect, not by the factual neutrality of the phenomenon described.**
+### Rule 6. Physical states and nature
 
 Descriptions of nature, weather, and physical sensations are annotated by their emotional effect in context, not by the dictionary meaning of the word itself. Warm sunshine against a sad scene does not make the sentence positive; a description of rain against a cozy domestic scene does not make the sentence negative.
 
-### –	#7 Inheritance of Sentiment Rule
-**Dialogue framing phrases inherit the sentiment of the speech verb.**
+### Rule 7. Dialogue framing phrases
 
 - *«— говорит мама»* ('says mom') → 0 (a neutral speech verb)
 - *«— кричит мама»* ('shouts mom') → −1 (if the shout stems from fear or anger)
@@ -96,14 +97,17 @@ Descriptions of nature, weather, and physical sensations are annotated by their 
 
 The sentiment of the framing phrase is inherited from the emotion of the speech verb.
 
-## #8 Intonational Link Rule
-**A direct-speech utterance and the immediately following speech verb with an intonational characteristic are annotated as a single sentiment unit if the speech verb carries no emotional information distinct from that of the utterance itself.**
+## Rule 8. Direct-speech utterance + speech verb — NEW RULE
+
+Added following the IAA analysis: this was the most frequent source of segmentation mismatch between the annotators (over 500 cases out of ~3,360 matched sentence pairs).
 
 ＋ A direct-speech utterance and the IMMEDIATELY following speech verb with an intonational characteristic (*просил* 'begged', *выкрикнул* 'shouted out', *прошептал* 'whispered', *всхлипнул* 'sobbed') are annotated as ONE sentiment unit — one sentence for annotation purposes, even if they are visually separated by a dash or technically belong to different syntactic sentences.
 
 - *«— Обними меня, мама! — просил он перед сном.»* ('"Hug me, mom!" he begged before bedtime.') → annotated as ONE sentence, labeled by the resulting emotion of the whole construction (+1: a request for closeness and warmth — not "hug me" separately plus a neutral "begged" separately).
 
-⚠ If you are unsure which sentence the utterance belongs to syntactically, do not split artificially for the sake of formal punctuation compliance. Judge by meaning: the utterance + its immediate speech verb form a single semantic and emotional block.
+Exception: if the speech verb itself carries independent emotional information distinct from the utterance and not derivable from it — separate annotation is permissible. This is an exception, not the default; in most cases the speech verb (*просил*, *сказал*, *ответил*, *прошептал*) only amplifies or neutrally introduces the tone of the utterance itself and does not contradict it.
+
+⚠ If you are unsure which sentence the utterance belongs to syntactically — do not split artificially for the sake of formal punctuation compliance. Judge by meaning: the utterance + its immediate speech verb form a single semantic and emotional block.
 
 ## Quick reference
 
@@ -112,17 +116,11 @@ The sentiment of the framing phrase is inherited from the emotion of the speech 
 | Explicit positive | joy, laughter, hugs, hooray | +1 POSITIVE |
 | Explicit negative | fear, sadness, conflict, pain | −1 NEGATIVE |
 | Neutral | facts, narration, neutral dialogue | 0 NEUTRAL |
-| Exclamation with an explicit joy marker | «О!» 'Oh!', «Ура!» 'Hooray!', «Как красиво!» 'What a beauty!' | +1 POSITIVE |
-| Anxiety-as-metaphor with care in the same sentence | «спрятать тебя от тревог» 'to hide you from all the worries' | By the resulting emotion (often +1) |
-| Remorse without resolution in the same/following sentence | «я зря обидел…» 'hurt for nothing' | −1 NEGATIVE |
-| Utterance + speech verb | «— Обними меня! — просил он» '"Hug me!" he begged' | ONE sentence, labeled by the resulting emotion |
+| Exclamation with an explicit joy marker | «О!», «Ура!», «Как красиво!» | +1 POSITIVE |
+| Anxiety-as-metaphor with care in the same sentence | «спрятать тебя от тревог» | By the resulting emotion (often +1) |
+| Remorse without resolution in the same/following sentence | «я зря обидел…» | −1 NEGATIVE |
+| Utterance + speech verb | «— Обними меня! — просил он» | ONE sentence, labeled by the resulting emotion |
 | Mixed | context analysis | Choose the dominant emotion |
-
-## Useful Tip 
-**If you're unsure between two markers, ask yourself:**
-*If I were reading this aloud to a child, how would I change the intonation?*   
-<span style="color:red;">Anxious intonation</span> → -1 <span style="color:green;">Joyful intonation</span> → +1 <span style="color:grey;">Even intonation</span> → 0
-
 
 ## Label Studio XML configuration (shared with NER)
 
