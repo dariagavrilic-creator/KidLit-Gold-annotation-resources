@@ -1,0 +1,68 @@
+====================================================================
+KidLit-Gold — external validation of adjudication decisions
+====================================================================
+Cases in sample        : 150
+Cases judged           : 150
+
+1. Overall agreement
+--------------------
+   correct     115  ( 76.7%)
+   incorrect    31  ( 20.7%)
+   unclear       4  (  2.7%)
+
+   Agreement (unclear excluded): 115/146 = 78.8%  [95% CI 71.4–84.6]
+   Agreement (unclear = disagreement): 115/150 = 76.7%  [95% CI 69.3–82.7]
+
+2. Bias check: does agreement depend on which annotator was favoured?
+---------------------------------------------------------------------
+   decisions favouring A: 72/93 =  77.4%  [95% CI 67.9–84.7]
+   decisions favouring B: 35/45 =  77.8%  [95% CI 63.7–87.5]
+
+   Fisher exact test: p = 1.000, OR = 0.98
+   Interpretation: p > 0.05 means the external expert agrees with decisions
+   favouring A and B at statistically indistinguishable rates, i.e. no evidence
+   that the adjudicator systematically favoured one annotator.
+
+3. Agreement by disagreement type
+---------------------------------
+   Sentiment (label)                 72/91  =  79.1%  [70–86]
+   NER: label on coinciding span     12/12  = 100.0%  [76–100]
+   NER: missed by annotator A        21/32  =  65.6%  [48–80]
+   NER: missed by annotator B        10/11  =  90.9%  [62–98]
+
+4. Disagreements by precedent (where the expert said "incorrect")
+-----------------------------------------------------------------
+   A-8        8 of 13  judged cases
+   B-18       5 of 10  judged cases
+   B-4        4 of 7   judged cases
+   A-3        4 of 14  judged cases
+   B-24       2 of 11  judged cases
+   B-2        2 of 3   judged cases
+   B-12       2 of 11  judged cases
+   B-6        1 of 11  judged cases
+   B-5        1 of 3   judged cases
+   B-19       1 of 1   judged cases
+
+5. Expert comments
+------------------
+   [C1235] correct: Далее Мама-Тигрица зарычала, чтобы они прекратили задавать невежливые вопросы, значит это вопрос, который задал ребенок, он засыпал Дядю Феличе вопросами, потому что ему весело и интересно. Следовательно +1
+   [C0546] correct: В данном случае "машины" представляют собой второстепенных персонажей, о которых пока не сообщили подробности в тексте. Автомобильчик - главный герой среди этих "машин"
+   [C0746] unclear: Возможно девочка удивилась и обрадовалась, но сложно сказать однозначно
+   [C0973] unclear: Не могу определить, неверно или нет, по данному предложению "людям" - очень абстрактное понятие, чтобы выделить это в сущность. Возможно имеется в виду, приходит ли Дед Мороз в принципе? Видел ли его кто-то?
+   [C0253] incorrect: Я бы определила тональность как +1, грузовик радуется празднику и поэтому торопится.
+   [C0643] incorrect: По данному предложению непонятно, являются ли овцы персонажами, или это в принципе предложение малышу леденцу "посчитать овец" чтобы быстрее уснуть.
+   [C1115] incorrect: В данном предложении чувствуются нотки раздражения: гусеница занята делом, а ее отвлекают.
+   [C0723] incorrect: По тексту садовый гном как будто просто предмет (не сущность)
+   [C1625] incorrect: Первая часть предложения негативная, вторая позитивная, в итоге получается нейтральное предложение.
+   [C0659] incorrect: Скорее всего месяц - это просто предмет
+
+Per-case merged data written to validation_report.csv
+
+6. Draft sentence for the paper (fill in if the numbers look right)
+-------------------------------------------------------------------
+   "An independent expert, not affiliated with the project and blind to which
+   annotator had proposed each competing version, re-examined a stratified random
+   sample of 150 adjudicated cases and confirmed 115 of 146 decided verdicts
+   (78.8%, 95% CI 71.4–84.6). Agreement did not differ
+   significantly between decisions favouring annotator A and annotator B
+   (Fisher exact p = 1.00), indicating no systematic bias toward either annotator."
