@@ -1,6 +1,6 @@
 # KidLit Decision Handbook
 
-*v2 · verified and extended based on the IAA analysis (30 books, both annotators) · English edition*
+*v3 · complete: all 30 books adjudicated (1,665 resolved cases) · English edition*
 
 ## 0. How to use this document
 
@@ -119,7 +119,7 @@ Russian examples are given in the original with English glosses in single quotes
 
 > ？ OPEN QUESTION. To be decided on the full sample of these 360 cases: (1) whether to exclude «Природа»/«природа» from PER_ROLE as a class — a philosophical question about the limits of anthropomorphization in children's texts; (2) whether to introduce a separate technical validation rule ("a single-adjective span without a noun when selecting PER_ROLE — request confirmation"). Both questions must be resolved BEFORE the next annotation round, otherwise they will continue to generate spurious IAA disagreements in the same proportion.
 >
-> ⚠ Previously, "missed entities" were treated as a single category without a subtype breakdown. The actual data revealed two different phenomena inside one figure (360) — the number itself is uninformative without this distinction.
+> ⚠ Previously, "missed entities" were treated as a single category without a subtype breakdown. The actual data revealed two different phenomena inside one figure (360) — the number itself is uninformative without this distinction; use it with caution in the paper.
 
 ### A-9 · STABLE · PER_ROLE — social relations outside the family
 
@@ -172,6 +172,18 @@ Russian examples are given in the original with English glosses in single quotes
 | Is it used as a **form of address** to the character? | Yes | No |
 
 **Resolution for the case at hand.** «мама-паровоз» → **PER_ROLE** (one span over the whole compound), because here it is a **metaphorical comparison within an episode**, not the character's unique name. Unlike book RUS-O_long_01, where «Мама-паровоз» is a character's proper name, here it is a descriptive figure characterizing the mother's action in a specific scene.
+
+---
+
+### A-12 · STABLE · PER_ROLE — vehicle and object categories without unique names
+
+**Example.** Book RUS-T_medium_02. «вертолёты» ('helicopters') was annotated PER_ROLE by annotator A and missed by annotator B.
+
+**Rule.** Words denoting categories of vehicles or objects that appear without a unique name are annotated as PER_ROLE when they act as characters or salient objects in the narrative.
+
+**Resolution.** «вертолёты» → PER_ROLE (annotator A was correct).
+
+**Notes.** New precedent formulated during the second half of adjudication, on books processed after the initial 13-book subset. Extends the role family of A-11 from social/professional roles to inanimate vehicle and object categories.
 
 ---
 
@@ -394,6 +406,9 @@ With every rule update, record which earlier decisions need to be revisited.
 | v2 (current) | A-6, A-7 | Reformulated from "shorter/longer span" to "one span vs splitting into several spans" — after checking the actual offsets | 8 mentions of «Керосин Бензинович» + 2 mentions of «Дед Мороз» + 2 mentions of the snow-clearing machine — verify that the final annotation uses ONE span everywhere |
 | v2 (current) | A-5 | Status raised from PRELIMINARY to STABLE — the possessive-anchoring criterion confirmed without contradiction | Not needed — a status change, not a rule change |
 | v2 (current) | A-8 | New precedent (previously an empty template). Status OPEN, not PRELIMINARY — no decision has been made yet | 360 cases await a decision on the two subtypes (adjective without a noun / «природа» as a character) |
+| v3 (current) | A-12 | New precedent: vehicle/object categories without unique names → PER_ROLE | Not required — a new rule, consistent with A-11 |
+| v3 (current) | A-2 | Confirmed on a large sample (60 cases, mostly «Жёлтый» in RUS-O_short_03): 58 of 60 resolved as PER_NAME | Not required — status confirmation |
+| v3 (current) | A-6 | Confirmed as the dominant source of "neither version" outcomes (21 of 24 cases resolved by merging both annotators' partial spans into one) | Not required — status confirmation |
 
 ---
 
