@@ -1,0 +1,151 @@
+case_id,book_id,type,version_1_is,version_2_is,resolved_in_favor_of,decision_raw,precedent_id,rule_applied
+C1235,RUS-T_long_04,Sentiment_label,A,B,A,+1 POSITIVE,B-5,вопрос без явных маркеров негатива
+C0270,RUS-O_long_03,Sentiment_label,B,A,A,0 NEUTRAL,B-24,слабо выраженная эмоция без драматизации
+C1114,RUS-T_long_02,Sentiment_label,B,A,A,+1 POSITIVE,B-6,наличие положительных оценочных признаков
+C1438,RUS-T_medium_04,NER_missed_by_B,B,A,A,PER_ROLE,A-11,"слова, обозначающие социальные роли и статусы"
+C0546,RUS-O_medium_01,NER_missed_by_A,A,B,B,PER_ROLE,A-3,"объекты, обозначающие общий вид/категорию"
+C0746,RUS-O_medium_05,Sentiment_label,A,B,A,0 NEUTRAL,B-24,слабо выраженная эмоция без драматизации
+C0279,RUS-O_long_03,Sentiment_label,A,B,A,0 NEUTRAL,B-5,Вопрос без явных маркеров эмоции
+C1273,RUS-T_long_05,NER_label,B,A,A,PER_ROLE,A-11,"слова, обозначающие возрастные/социальные роли"
+C1161,RUS-T_long_03,NER_missed_by_A,B,A,A,keep A,A-8,"недостаточная разметка, однословное прилагательное без существительного"
+C0905,RUS-O_short_04,NER_missed_by_A,B,A,A,keep A,A-8,"недостаточная разметка, прилагательное без существительного"
+C1190,RUS-T_long_03,Sentiment_label,B,A,A,-1 NEGATIVE,B-17,описание неисправности как маркер негативного состояния
+C0954,RUS-T_long_01,NER_label,A,B,neither,PER_NAME,A-6,"устойчивое составное имя персонажа, должна быть одна сущность Дед Мороз PER_NAME"
+C0973,RUS-T_long_01,NER_missed_by_A,B,A,B,PER_ROLE,A-5,обобщённые группы без конкретной идентификации
+C0970,RUS-T_long_01,NER_missed_by_A,B,A,neither,PER_NAME,A-6,"устойчивое составное имя персонажа, должно быть размечено как одна сущность  - Дед Мороз PER_NAME"
+C1446,RUS-T_medium_04,NER_missed_by_A,A,B,neither,PER_NAME,A-1,"должна быть одна сущность - Свинни Пиг, недостаточная разметка, уникальное авторское имя"
+C1406,RUS-T_medium_02,Sentiment_label,A,B,A,0 NEUTRAL,B-24,слабо выраженная эмоция без драматизации
+C0721,RUS-O_medium_05,NER_label,B,A,A,PER_ROLE,A-5,слово используется обобщённо
+C0333,RUS-O_long_04,NER_missed_by_B,A,B,A,PER_ROLE,A-11,профессиональная/социальная роль
+C1580,RUS-T_short_02,NER_missed_by_A,A,B,B,PER_ROLE,A-9,"слова, обозначающие устойчивые социальные отношения персонажей"
+C0117,RUS-O_long_02,NER_missed_by_A,B,A,A,keep A,A-8,однословное прилагательное без существительного
+C1627,RUS-T_short_04,Sentiment_label,A,B,A,-1 NEGATIVE,B-14,описание пострадавших птиц как негативного факта
+C0550,RUS-O_medium_01,Sentiment_label,A,B,B,-1 NEGATIVE,B-17,прямое называние конфликтных действий
+C0376,RUS-O_long_04,Sentiment_label,B,A,B,+1 POSITIVE,B-22,коллективное синхронное действие
+C1185,RUS-T_long_03,Sentiment_label,B,A,B,-1 NEGATIVE,B-4,позитивный прогресс прерывается негативным событием
+C0485,RUS-O_long_05,Sentiment_label,A,B,A,+1 POSITIVE,B-6,наличие положительных оценочных признаков
+C0771,RUS-O_short_01,Sentiment_label,B,A,A,-1 NEGATIVE,B-4,негативная эмоция без позитивного разрешения
+C0542,RUS-O_medium_01,NER_missed_by_B,B,A,A,PER_ROLE,A-11,"слова, обозначающие социальные или функциональные роли"
+C0875,RUS-O_short_03,Sentiment_label,B,A,B,+1 POSITIVE,B-7,нежное прикосновение как проявление близости
+C0202,RUS-O_long_02,Sentiment_label,A,B,A,-1 NEGATIVE,B-17,физическое проявление грусти
+C0596,RUS-O_medium_03,NER_missed_by_B,A,B,B,keep B,A-10,не является сущностью
+C0562,RUS-O_medium_01,Sentiment_label,A,B,A,+1 POSITIVE,B-7,просьба о возможности присоединиться к полезному делу
+C1432,RUS-T_medium_03,Sentiment_label,A,B,A,+1 POSITIVE,B-6,"наличие положительных образов (изобретение, вызывающее восхищение)"
+C0039,RUS-O_long_01,NER_missed_by_B,A,B,A,PER_ROLE,A-3,Животные как общий вид или фоновая роль
+C1598,RUS-T_short_03,Sentiment_label,A,B,A,+1 POSITIVE,B-12,радость от карусели
+C1391,RUS-T_medium_02,NER_missed_by_A,B,A,A,keep A,A-8,"недостаточная разметка, прилагательное без существительного"
+C0253,RUS-O_long_03,Sentiment_label,A,B,A,0 NEUTRAL,B-24,слабо выраженная эмоция без драматизации
+C0779,RUS-O_short_02,NER_missed_by_A,A,B,B,PER_ROLE,A-11,"слова, обозначающие функциональные роли"
+C1148,RUS-T_long_03,NER_missed_by_A,A,B,A,keep A,A-8,"недостаточная разметка, прилагательное без существительного"
+C1604,RUS-T_short_03,Sentiment_label,A,B,B,-1 NEGATIVE,B-17,притаился и молчит как выражение непослушания и уклонения
+C0476,RUS-O_long_05,Sentiment_label,A,B,B,0 NEUTRAL,B-24,слабо выраженная эмоция без драматизации
+C0276,RUS-O_long_03,Sentiment_label,A,B,A,0 NEUTRAL,B-24,констатация желания/намерения без эмоциональных маркеров
+C0010,RUS-O_long_01,NER_label,B,A,B,PER_NAME,A-3,Животные как конкретные персонажи с индивидуальными чертами и уникальным именем
+C0403,RUS-O_long_04,Sentiment_label,B,A,B,+1 POSITIVE,B-12,описание результата любимого дела
+C0132,RUS-O_long_02,NER_missed_by_A,B,A,neither,PER_NAME,A-6,часть уникального составного имени персонажа
+C0643,RUS-O_medium_04,NER_missed_by_B,B,A,A,PER_ROLE,A-3,животные как общий вид или категория
+C0141,RUS-O_long_02,Sentiment_label,B,A,B,-1 NEGATIVE,B-1,"реплика и следующий за ней глагол говорения размечаются как одна единица тональности, по итоговой эмоции реплики"
+C0486,RUS-O_long_05,Sentiment_label,B,A,A,-1 NEGATIVE,B-18,неожиданная тишина после радостного события воспринимается как предвестник тревоги
+C0115,RUS-O_long_02,NER_missed_by_A,B,A,B,PER_ROLE,A-3,обобщённое название класса объектов
+C1024,RUS-T_long_01,Sentiment_label,A,B,B,+1 POSITIVE,B-2,смех как явный маркер радости
+C0312,RUS-O_long_03,Sentiment_label,B,A,A,-1 NEGATIVE,B-18,невозможность получить помощь/ответ создаёт негативный фон
+C0695,RUS-O_medium_04,Sentiment_label,B,A,A,-1 NEGATIVE,B-4,капризный отказ без позитивного разрешения
+C0469,RUS-O_long_05,NER_missed_by_A,B,A,A,keep A,A-7,"недостаточная разметка, одно название - летучие мыши (PER_ROLE)"
+C1497,RUS-T_medium_05,NER_label,B,A,B,PER_FAMILY,A-4,Уменьшительно-ласкательные формы («сынишку») также относятся к семейным ролям
+C0577,RUS-O_medium_02,NER_missed_by_A,A,B,B,PER_ROLE,A-3,обобщённое название категории/типа (по аналогии с животными)
+C1478,RUS-T_medium_04,Sentiment_label,A,B,B,0 NEUTRAL,B-5,вопросы без маркеров тревоги/страха/радости
+C0620,RUS-O_medium_03,Sentiment_label,A,B,A,-1 NEGATIVE,B-18,описание опасности и необходимости предотвращать её
+C1638,RUS-T_short_05,Sentiment_label,B,A,A,+1 POSITIVE,B-12,гордость за свой труд
+C0267,RUS-O_long_03,Sentiment_label,A,B,B,0 NEUTRAL,B-2,восклицание без явного маркера эмоции
+C1013,RUS-T_long_01,Sentiment_label,B,A,B,+1 POSITIVE,B-7,просьба о знаниях как желание разделить радость
+C1324,RUS-T_long_05,Sentiment_label,B,A,A,+1 POSITIVE,B-6,наличие положительных образов (алмазы на любой вкус)
+C0795,RUS-O_short_02,Sentiment_label,A,B,A,+1 POSITIVE,B-22,совместный праздник как проявление дружбы и единства
+C0378,RUS-O_long_04,Sentiment_label,A,B,B,+1 POSITIVE,B-23,"Фрагменты, описывающие долгожданное разрешение кризиса"
+C0086,RUS-O_long_01,Sentiment_label,A,B,A,+1 POSITIVE,B-15,"Высказывания, выражающие восхищение красотой объекта или желание сохранить его для себя и других, размечаются как положительные."
+C0427,RUS-O_long_05,NER_missed_by_B,A,B,A,PER_ROLE,A-3,животные/образы как общая категория
+C1433,RUS-T_medium_03,Sentiment_label,A,B,A,+1 POSITIVE,B-6,"наличие положительных образов (изобретение, вызывающее восхищение)"
+C0159,RUS-O_long_02,Sentiment_label,A,B,B,+1 POSITIVE,B-16,"реплика является продолжением заступничества, выражает поддержку и оптимистичную веру"
+C0767,RUS-O_short_01,Sentiment_label,B,A,A,-1 NEGATIVE,B-18,описание агрессивных действий и призывов к насилию
+C1060,RUS-T_long_02,NER_missed_by_A,B,A,A,keep A,A-8,"недостаточная разметка, однословное прилагательное без существительного"
+C1086,RUS-T_long_02,Sentiment_label,B,A,A,+1 POSITIVE,B-6,наличие положительных оценочных признаков
+C1115,RUS-T_long_02,Sentiment_label,B,A,B,0 NEUTRAL,B-24,слабо выраженная эмоция без драматизации
+C1168,RUS-T_long_03,NER_missed_by_A,B,A,A,keep A,A-8,"недостаточная разметка, прилагательное без существительного"
+C0785,RUS-O_short_02,NER_missed_by_A,A,B,A,keep A,A-8,"недостаточная разметка, прилагательное без существительного"
+C0782,RUS-O_short_02,NER_missed_by_A,A,B,B,PER_ROLE,A-9,"слова, обозначающие устойчивые социальные отношения персонажей"
+C1507,RUS-T_medium_05,Sentiment_label,B,A,A,-1 NEGATIVE,B-17,описание томительного ожидания как негативного состояния
+C0225,RUS-O_long_03,NER_missed_by_B,A,B,A,PER_ROLE,A-3,"существительное, обозначающее категорию объектов"
+C0111,RUS-O_long_02,NER_missed_by_B,B,A,A,PER_ROLE,A-3,обобщённое название класса объектов
+C0847,RUS-O_short_03,NER_label,A,B,A,PER_NAME,A-2,"обращение/референция к конкретному, единственному в своём роде персонажу"
+C0631,RUS-O_medium_03,Sentiment_label,B,A,B,+1 POSITIVE,B-19,"реплики, направленные на расширение перспективы персонажа"
+C1455,RUS-T_medium_04,Sentiment_label,B,A,A,+1 POSITIVE,B-2,"восклицательная реплика, выражающая радостное оправдание"
+C0843,RUS-O_short_03,NER_label,B,A,A,PER_NAME,A-2,"обращение/референция к конкретному, единственному в своём роде персонажу"
+C1575,RUS-T_short_02,NER_missed_by_A,A,B,B,PER_ROLE,A-3,животные как общий вид или категория без уникальных имён
+C0382,RUS-O_long_04,Sentiment_label,B,A,B,+1 POSITIVE,B-12,творческое действие как источник радости
+C0512,RUS-O_long_05,Sentiment_label,A,B,A,+1 POSITIVE,B-12,выражение желания и мечты о чём-то желанном
+C0386,RUS-O_long_04,Sentiment_label,A,B,B,+1 POSITIVE,B-16,"дети спорят не из злости, а из желания сделать мир весёлым"
+C1164,RUS-T_long_03,NER_missed_by_A,B,A,A,keep A,A-8,"недостаточная разметка, однословное прилагательное без существительного"
+C0982,RUS-T_long_01,NER_missed_by_A,B,A,neither,PER_NAME,A-6,"устойчивое, узнаваемое составное имя персонажа, должна быть одна сущность - Дед Мороз PER_NAME"
+C1043,RUS-T_long_01,Sentiment_label,A,B,A,+1 POSITIVE,B-22,совместное действие ради помощи/поддержки
+C1647,RUS-T_short_05,Sentiment_label,A,B,A,-1 NEGATIVE,B-17,прямое выражение отсутствия идей как негативного состояния
+C1249,RUS-T_long_04,Sentiment_label,B,A,A,+1 POSITIVE,B-16,подтверждение родства и любви
+C0527,RUS-O_long_05,Sentiment_label,B,A,B,-1 NEGATIVE,B-4,тревога и беспокойство без позитивного разрешения
+C1482,RUS-T_medium_04,Sentiment_label,B,A,A,-1 NEGATIVE,B-14,разрушение огорода
+C1626,RUS-T_short_04,Sentiment_label,A,B,A,-1 NEGATIVE,B-18,описание шторма и поисков в опасных условиях
+C1186,RUS-T_long_03,Sentiment_label,A,B,B,-1 NEGATIVE,B-18,описание разрушительного воздействия погоды
+C1053,RUS-T_long_02,NER_missed_by_B,B,A,A,PER_FAMILY,A-4,обычное слово родства
+C0723,RUS-O_medium_05,NER_missed_by_A,B,A,B,PER_ROLE,A-3,существа из фольклора/мифологии без уникальных имён
+C0756,RUS-O_short_01,NER_missed_by_A,B,A,A,keep A,A-8,"недостаточная разметка, прилагательное без существительного"
+C1331,RUS-T_long_05,Sentiment_label,A,B,A,-1 NEGATIVE,B-17,прямое называние грусти и усталости
+C1126,RUS-T_long_02,Sentiment_label,A,B,A,+1 POSITIVE,B-12,удовлетворение от сделанного доброго дела
+C1044,RUS-T_long_01,Sentiment_label,A,B,A,+1 POSITIVE,B-6,"наличие положительных образов (свет луны, волшебство)"
+C1038,RUS-T_long_01,Sentiment_label,A,B,A,+1 POSITIVE,B-7,"любопытство, желание принятия"
+C1079,RUS-T_long_02,Sentiment_label,B,A,B,+1 POSITIVE,B-3,общий вектор эпизода — позитивный
+C0580,RUS-O_medium_02,Sentiment_label,A,B,A,+1 POSITIVE,B-6,наличие положительных оценочных признаков
+C0147,RUS-O_long_02,Sentiment_label,A,B,A,-1 NEGATIVE,B-17,"реплики, прямо называющие или передающие переживаемые отрицательные эмоции персонажа"
+C0400,RUS-O_long_04,Sentiment_label,A,B,A,+1 POSITIVE,B-17,прямая вербализация положительной эмоции
+C1266,RUS-T_long_05,NER_label,B,A,A,PER_ROLE,A-11,"слова, обозначающие возрастные/социальные роли"
+C1302,RUS-T_long_05,Sentiment_label,A,B,A,+1 POSITIVE,B-12,самооценка как позитивная эмоция
+C1224,RUS-T_long_04,NER_missed_by_A,B,A,neither,PER_FAMILY,A-4,"обычное слово родства, должна быть одна сущность - двоюродная сестра"
+C0525,RUS-O_long_05,Sentiment_label,B,A,A,0 NEUTRAL,B-24,нейтральные описания звуков/действий без эмоциональных маркеров
+C0891,RUS-O_short_03,Sentiment_label,B,A,A,+1 POSITIVE,B-7,игровая просьба как проявление близости и доверия
+C0214,RUS-O_long_02,Sentiment_label,A,B,B,0 NEUTRAL,B-24,слабо выраженная эмоция без драматизации
+C1615,RUS-T_short_04,Sentiment_label,A,B,A,-1 NEGATIVE,B-17,описание недостатка внимания как негативного фактора
+C1541,RUS-T_short_01,Sentiment_label,B,A,A,-1 NEGATIVE,B-17,прямое называние негативного прогноза
+C0676,RUS-O_medium_04,Sentiment_label,A,B,A,-1 NEGATIVE,B-18,описание холода и дискомфорта
+C0042,RUS-O_long_01,NER_missed_by_B,B,A,A,PER_ROLE,A-3,Животные как общий вид или фоновая роль
+C0748,RUS-O_medium_05,Sentiment_label,A,B,A,+1 POSITIVE,B-16,"действие, направленное на помощь другому существу"
+C0661,RUS-O_medium_04,NER_missed_by_A,A,B,A,keep A,A-8,"однословное прилагательное без существительного, недостаточная разметка"
+C1599,RUS-T_short_03,Sentiment_label,B,A,B,-1 NEGATIVE,B-17,восклицательное выражение досады
+C1625,RUS-T_short_04,Sentiment_label,A,B,A,-1 NEGATIVE,B-18,описание трудного пути в опасных условиях
+C0775,RUS-O_short_01,Sentiment_label,A,B,A,+1 POSITIVE,B-16,скрытие своих чувств ради благополучия ребёнка как проявление любви
+C1386,RUS-T_medium_02,NER_missed_by_A,B,A,A,keep A,A-10,"собирательные существительные, обозначающие группу («группа», «команда», «стая»), не являются самостоятельными NER-сущностями."
+C0571,RUS-O_medium_02,NER_missed_by_A,A,B,A,keep A,A-8,недостаточная разметка (прилагательное размечено без существительного
+C1560,RUS-T_short_01,Sentiment_label,A,B,A,-1 NEGATIVE,B-4,негативная ситуация без позитивного разрешения
+C0350,RUS-O_long_04,NER_missed_by_A,A,B,B,PER_ROLE,A-7,"должна быть размечена вся сущность - мама-паровоз как PER_ROLE, это метафорическое сравнение в рамках эпизода"
+C0374,RUS-O_long_04,Sentiment_label,A,B,B,+1 POSITIVE,B-7,игровое вовлечение в деятельность через забавное объяснение
+C0492,RUS-O_long_05,Sentiment_label,B,A,B,-1 NEGATIVE,B-4,ситуация остаётся без позитивного разрешения
+C1297,RUS-T_long_05,Sentiment_label,B,A,A,-1 NEGATIVE,B-3,"общий вектор эпизода — негативный (насмешка, обесценивание)"
+C0799,RUS-O_short_03,NER_label,B,A,A,PER_NAME,A-2,уникальный идентификатор персонажа
+C1178,RUS-T_long_03,Sentiment_label,A,B,A,-1 NEGATIVE,B-4,горькое прощание без позитивного разрешения в том же сегменте
+C0414,RUS-O_long_04,Sentiment_label,A,B,B,+1 POSITIVE,B-16,щедрость и забота как проявление добрых намерений
+C1581,RUS-T_short_02,Sentiment_label,A,B,A,+1 POSITIVE,B-6,"наличие положительных оценочных признаков (разнообразные таланты, активность)"
+C0778,RUS-O_short_02,NER_missed_by_A,B,A,B,PER_ROLE,A-9,"слова, обозначающие устойчивые социальные отношения персонажей"
+C0717,RUS-O_medium_04,Sentiment_label,B,A,B,+1 POSITIVE,B-6,"наличие положительных образов (сон, лёгкость, кораблик)"
+C1270,RUS-T_long_05,NER_label,A,B,B,PER_NAME,A-1,"уникальное авторское имя, созданное для конкретного персонажа"
+C0131,RUS-O_long_02,NER_missed_by_A,A,B,B,PER_NAME,A-6,часть уникального составного имени персонажа
+C1486,RUS-T_medium_04,Sentiment_label,B,A,A,+1 POSITIVE,B-12,смех как проявление радости
+C1341,RUS-T_long_05,Sentiment_label,B,A,A,-1 NEGATIVE,B-18,описание темноты и опасности заблудиться
+C0116,RUS-O_long_02,NER_missed_by_A,B,A,A,keep A,A-8,однословное прилагательное без существительного
+C0519,RUS-O_long_05,Sentiment_label,A,B,A,0 NEUTRAL,B-24,слабо выраженная эмоция без драматизации
+C0020,RUS-O_long_01,NER_label,A,B,B,PER_NAME,A-3,Животные как конкретные персонажи с индивидуальными чертами и уникальным именем
+C1170,RUS-T_long_03,Sentiment_label,B,A,A,+1 POSITIVE,B-12,описание полезных дел как источника удовлетворения
+C0560,RUS-O_medium_01,Sentiment_label,B,A,A,+1 POSITIVE,B-12,"описание любимого дела, которое приносит пользу и радость"
+C0166,RUS-O_long_02,Sentiment_label,A,B,B,+1 POSITIVE,B-16,"реплика выражает поддержку и защиту, а не конфликт"
+C0659,RUS-O_medium_04,NER_missed_by_A,B,A,B,PER_ROLE,A-3,персонифицированные объекты природы без уникальных имён
+C0849,RUS-O_short_03,NER_label,A,B,A,PER_NAME,A-2,"обращение/референция к конкретному, единственному в своём роде персонажу"
+C0489,RUS-O_long_05,Sentiment_label,B,A,A,0 NEUTRAL,B-24,слабо выраженная эмоция без драматизации
+C0454,RUS-O_long_05,NER_missed_by_A,B,A,neither,PER_ROLE,A-11,"недостаточная разметка, должно быть фокусник-факир - PER_ROLE)"
+C1117,RUS-T_long_02,Sentiment_label,A,B,neither,+1 POSITIVE,B-12,важное и радостное событие в жизни персонажа
+C0713,RUS-O_medium_04,Sentiment_label,A,B,A,-1 NEGATIVE,B-18,длинный путь как источник утомления
+C1354,RUS-T_medium_01,NER_missed_by_B,B,A,A,PER_NAME,A-1,уникальное авторское имя
+C0739,RUS-O_medium_05,Sentiment_label,B,A,A,+1 POSITIVE,B-6,наличие положительных оценочных признаков
