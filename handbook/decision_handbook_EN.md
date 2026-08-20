@@ -1,6 +1,6 @@
 # KidLit Decision Handbook
 
-*v3 · complete: all 30 books adjudicated (1,665 resolved cases) · English edition*
+*complete: all 30 books adjudicated (1,665 resolved cases)
 
 ## 0. How to use this document
 
